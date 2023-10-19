@@ -1,0 +1,82 @@
+body { 
+  background-color: #f5f5f5;
+  color: #080E0E;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBtUYTZLAkof3aPLxgovtvFuMNvNt24o7StQ&usqp=CAU); 
+  min-height: 100vh;
+  margin: 0;  
+}
+
+#wrapper { 
+  background-color: #f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+header { background-color: #800080; 
+     text-align: center; 
+     font-family: 'Georgia', 'Times New Roman', serif;
+     padding: 1em;
+}
+
+h1 { 
+  font-size: 4em; 
+  letter-spacing: .2em;
+  color: #000000; 
+  font-weight: normal;
+}
+
+h2 { 
+  color: #f1f1f1; 
+}
+
+nav { 
+  float: left;
+  width: 40%; 
+  margin-left: 0; 
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+main {
+  width: 100%; 
+  margin-left: 0; 
+  padding: 1em;
+}
+
+main ol {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+a {
+  color: #0077b6;
+}
+
+a:hover {
+  color: #ff6b6b;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0;
+}
+
+footer { 
+  background-color: #c38bbf;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #wrapper {
+    width: 100%; 
+  }
+}
