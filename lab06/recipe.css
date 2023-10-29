@@ -36,6 +36,7 @@ nav {
   float: left;
   width: 30%;
   padding: 20px;
+  background-color: #f1f1f1;
 }
 
 nav ul {
@@ -47,6 +48,7 @@ main {
   float: left;
   padding: 20px;
   width: 70%;
+  background-color: #f1f1f1;
 }
 
 main ol {
@@ -76,6 +78,8 @@ footer {
   text-align: center;
   color: #000000;
   padding: 10px;
+  clear: both; /* Clear the floats from the previous elements */
+  margin: 5px;
 }
 
 @media (max-width: 600px) {
