@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBtUYTZLAkof3aPLxgovtvFuMNvNt24o7StQ&usqp=CAU);
+  margin: 0;
+}
+
+#wrapper {
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+/* Style the header */
+header {
+  background-color: #800080;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  color: #f1f1f1;
+  font-size: 2em;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+main ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:hover {
+  color: #ff6b6b;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #c38bbf;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+  clear: both; /* Clear the floats from the previous elements */
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  nav, main {
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+     font-size: 19px;
+  }
+  h2{
+     font-size: 10px;
+  }
+
+  p {
+     font-size: 8px;
+  }
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.table-nutrition {
+  border: 1px solid #000;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.table-nutrition .padding-y {
+  padding: 4px 0;
+}
+
+.table-nutrition .padding-x {
+  padding: 0 4px;
+}
+
+.table-nutrition .padding-l {
+  padding-left: 10px;
+}
+
+.table-nutrition .multiple-line {
+  line-height: 1.3;
+}
+
+.table-nutrition thead,
+.table-nutrition thead tr:nth-child(3) td span {
+  font-size: 26px;
+}
+
+.table-nutrition thead tr:nth-child(2) td,
+.table-nutrition thead tr:nth-child(3) td {
+  font-size: 14px;
+}
+
+.table-nutrition tbody table {
+  font-size: 11px;
+}
+
+.table-nutrition tbody table .border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.table-nutrition tbody table .border-bottom.fat {
+  border-bottom: 4px solid #000;
+}
+
+.text-right {
+  text-align: right;
+}
